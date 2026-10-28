@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ImmobilienPlus | Immobilien kaufen</title>
+
+    <meta name="description"
+          content="Entdecke attraktive Häuser und Wohnungen in der Schweiz. Finde deine Traumimmobilie mit ImmobilienPlus.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #243247;
+            background: #f7f9fc;
+            line-height: 1.6;
+        }
+
+        header {
+            background: white;
+            padding: 18px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #1266cc;
+        }
+
+        nav a {
+            color: #243247;
+            text-decoration: none;
+            margin-left: 22px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #1266cc;
+        }
+
+        .hero {
+            min-height: 420px;
+            padding: 90px 7%;
+            color: white;
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(13, 35, 60, 0.85),
+                    rgba(13, 35, 60, 0.15)
+                ),
+                url("https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=85")
+                center/cover;
+        }
+
+        .hero h1 {
+            font-size: clamp(36px, 5vw, 56px);
+            max-width: 650px;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 520px;
+            margin-bottom: 28px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #0868d7;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 6px;
+            padding: 13px 22px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background: #0755ad;
+        }
+
+        section {
+            padding: 55px 7%;
+        }
+
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .section-description {
+            color: #65748b;
+            margin-bottom: 30px;
+        }
+
+        .property-grid {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(260px, 1fr)
+            );
+            gap: 25px;
+        }
+
+        .property-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+            transition: transform 0.2s;
+        }
+
+        .property-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .property-card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .property-info {
+            padding: 22px;
+        }
+
+        .tag {
+            display: inline-block;
+            color: #0868d7;
+            background: #e9f2ff;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .property-info h3 {
+            font-size: 21px;
+            margin-bottom: 8px;
+        }
+
+        .location {
+            color: #65748b;
+            margin-bottom: 12px;
+        }
+
+        .features {
+            color: #65748b;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            color: #0868d7;
+            font-size: 23px;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .about {
+            background: white;
+        }
+
+        .about-content {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            color: #65748b;
+            margin-top: 15px;
+        }
+
+        .contact {
+            background: #eaf2fb;
+        }
+
+        .contact-container {
+            max-width: 650px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-container h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-container p {
+            color: #65748b;
+            margin-bottom: 20px;
+        }
+
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 13px;
+            margin-bottom: 15px;
+            border: 1px solid #d5dce6;
+            border-radius: 6px;
+            font: inherit;
+        }
+
+        textarea {
+            min-height: 130px;
+            resize: vertical;
+        }
+
+        .contact .button {
+            width: 100%;
+        }
+
+        footer {
+            background: #1d2b3d;
+            color: white;
+            text-align: center;
+            padding: 28px 7%;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        footer a {
+            color: #cbdcf2;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0;
+            }
+
+            .hero {
+                padding: 65px 7%;
+            }
+
+            section {
+                padding: 40px 6%;
+            }
+
+            .section-title {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">⌂ ImmobilienPlus</div>
+
+        <nav>
+            <a href="#start">Startseite</a>
+            <a href="#immobilien">Immobilien</a>
+            <a href="#ueber-mich">Über mich</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="start">
+            <h1>Finde deine Traumimmobilie</h1>
+
+            <p>
+                Ob Haus, Wohnung oder Grundstück:
+                Entdecke attraktive Immobilien in der Schweiz.
+            </p>
+
+            <a href="#immobilien" class="button">
+                Immobilien entdecken →
+            </a>
+        </section>
+
+        <section id="immobilien">
+            <h2 class="section-title">Unsere Immobilien</h2>
+
+            <p class="section-description">
+                Entdecke unsere aktuellen Immobilienangebote.
+            </p>
+
+            <div class="property-grid">
+
+                <article class="property-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+                        alt="Modernes Einfamilienhaus mit Garten"
+                    >
+
+                    <div class="property-info">
+                        <span class="tag">Haus</span>
+
+                        <h3>Einfamilienhaus mit Garten</h3>
+
+                        <p class="location">
+                            📍 Zürich, Schweiz
+                        </p>
+
+                        <p class="features">
+                            150 m² · 5 Zimmer · 2 Badezimmer
+                        </p>
+
+                        <p class="price">CHF 1'250'000</p>
+
+                        <a
+                            href="#kontakt"
+                            class="button"
+                            onclick="setProperty('Einfamilienhaus mit Garten')"
+                        >
+                            Interesse anmelden →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
+                        alt="Moderne Eigentumswohnung"
+                    >
+
+                    <div class="property-info">
+                        <span class="tag">Wohnung</span>
+
+                        <h3>Moderne Eigentumswohnung</h3>
+
+                        <p class="location">
+                            📍 Winterthur, Schweiz
+                        </p>
+
+                        <p class="features">
+                            95 m² · 3.5 Zimmer · Balkon
+                        </p>
+
+                        <p class="price">CHF 795'000</p>
+
+                        <a
+                            href="#kontakt"
+                            class="button"
+                            onclick="setProperty('Moderne Eigentumswohnung')"
+                        >
+                            Interesse anmelden →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80"
+                        alt="Grünes Grundstück in schöner Umgebung"
+                    >
+
+                    <div class="property-info">
+                        <span class="tag">Grundstück</span>
+
+                        <h3>Grundstück in ruhiger Lage</h3>
+
+                        <p class="location">
+                            📍 Kanton Zürich, Schweiz
+                        </p>
+
+                        <p class="features">
+                            650 m² · Ruhige Lage · Gute Anbindung
+                        </p>
+
+                        <p class="price">Preis auf Anfrage</p>
+
+                        <a
+                            href="#kontakt"
+                            class="button"
+                            onclick="setProperty('Grundstück in ruhiger Lage')"
+                        >
+                            Interesse anmelden →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="about" id="ueber-mich">
+            <div class="about-content">
+                <h2 class="section-title">Über mich</h2>
+
+                <p>
+                    Willkommen bei ImmobilienPlus!
+                    Ich helfe dir dabei, passende Immobilien
+                    zu entdecken und Interessenten mit Verkäufern
+                    in Kontakt zu bringen.
+                </p>
+
+                <p>
+                    Du möchtest eine Immobilie verkaufen oder
+                    suchst dein neues Zuhause? Ich freue mich
+                    auf deine Nachricht.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact" id="kontakt">
+            <div class="contact-container">
+                <h2>Kontakt aufnehmen</h2>
+
+                <p>
+                    Hast du Fragen zu einer Immobilie?
+                    Schreibe mir eine Nachricht.
+                </p>
+
+                <form id="contactForm">
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Dein Name"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Deine E-Mail-Adresse"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        id="property"
+                        placeholder="Welche Immobilie interessiert dich?"
+                    >
+
+                    <textarea
+                        id="message"
+                        placeholder="Deine Nachricht"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="button">
+                        Nachricht vorbereiten →
+                    </button>
+                </form>
+
+                <p id="formStatus" role="status"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>⌂ ImmobilienPlus</strong></p>
+
+        <p>Deine Immobilie. Deine Zukunft.</p>
+
+        <p>
+            <a href="#start">Startseite</a>
+            <a href="#immobilien">Immobilien</a>
+            <a href="#kontakt">Kontakt</a>
+        </p>
+
+        <p>
+            &copy; <span id="year"></span> ImmobilienPlus
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        function setProperty(propertyName) {
+            document.getElementById("property").value =
+                propertyName;
+        }
+
+        document.getElementById("contactForm").addEventListener(
+            "submit",
+            function (event) {
+                event.preventDefault();
+
+                const name =
+                    document.getElementById("name").value.trim();
+
+                const email =
+                    document.getElementById("email").value.trim();
+
+                const property =
+                    document.getElementById("property").value.trim();
+
+                const message =
+                    document.getElementById("message").value.trim();
+
+                const subject = encodeURIComponent(
+                    "Immobilienanfrage: " + (property || "Allgemeine Anfrage")
+                );
+
+                const body = encodeURIComponent(
+                    "Name: " + name +
+                    "\nE-Mail: " + email +
+                    "\nImmobilie: " + (property || "Keine angegeben") +
+                    "\n\nNachricht:\n" + message
+                );
+
+                document.getElementById("formStatus").textContent =
+                    "Dein E-Mail-Programm wird geöffnet. Bitte sende die vorbereitete Nachricht dort ab.";
+
+                window.location.href =
+                    "mailto:DEINE-EMAIL@BEISPIEL.CH" +
+                    "?subject=" + subject +
+                    "&body=" + body;
+            }
+        );
+    </script>
+
+</body>
+</html>
