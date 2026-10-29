@@ -22,7 +22,9 @@ a { color: inherit; text-decoration: none; }
 .site-nav a:hover { color: #9c7b4b; }
 .site-nav .nav-cta { padding: 12px 17px; border: 1px solid var(--green); }
 .menu-toggle { display: none; }
-.hero { min-height: 640px; height: min(76vw, 760px); max-height: 790px; position: relative; color: white; display: flex; align-items: center; background: #526a63 url("images/villa-render-1.jpg") center 60%/cover no-repeat; }
+.hero { min-height: 640px; height: min(76vw, 760px); max-height: 790px; position: relative; color: white; display: flex; align-items: center; overflow: hidden; background: #526a63; }
+.hero::before { content: ""; position: absolute; inset: 0; background: url("images/villa-render-1.jpg") center 60%/cover no-repeat; transform-origin: 60% 55%; animation: hero-zoom 24s ease-out forwards; }
+@keyframes hero-zoom { from { transform: scale(1); } to { transform: scale(1.12); } }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(13,35,32,.74) 0%, rgba(13,35,32,.43) 48%, rgba(13,35,32,.08) 100%); }
 .hero-content { position: relative; z-index: 1; width: min(760px, 85%); margin-left: 12%; padding: 65px 0 90px; }
 .eyebrow, .section-kicker { font-size: 10px; letter-spacing: .22em; font-weight: 700; }
@@ -84,6 +86,8 @@ h3 { font-size: 16px; font-weight: 600; margin: 13px 0 7px; }
 .gallery-plan a { aspect-ratio: auto; background: #f3efe7; }
 .gallery-plan img { height: auto; object-fit: contain; }
 .gallery-plan a:hover img { transform: none; }
+.js .gallery-item { opacity: 0; transform: translateY(28px); transition: opacity .8s ease-out, transform .8s ease-out; }
+.js .gallery-item.is-visible { opacity: 1; transform: none; }
 .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
 .gallery-item a:hover img { transform: scale(1.04); }
 .gallery-item figcaption { font-size: 11px; color: var(--muted); padding-top: 8px; line-height: 1.4; }
@@ -148,7 +152,8 @@ h3 { font-size: 16px; font-weight: 600; margin: 13px 0 7px; }
 @media (max-width: 600px) {
   .brand { font-size: 8px; gap: 8px; letter-spacing: .12em; }
   .brand-mark { width: 32px; height: 32px; }
-  .hero { min-height: 600px; background-position: 58% center; }
+  .hero { min-height: 600px; }
+  .hero::before { background-position: 58% center; }
   .hero-content { width: 86%; margin-left: 7%; }
   h1 { font-size: 55px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 16px; }
@@ -175,4 +180,8 @@ h3 { font-size: 16px; font-weight: 600; margin: 13px 0 7px; }
   .gallery-wide a { aspect-ratio: 16 / 9; height: auto; }
   .contact-details { padding-top: 0; }
   .site-footer { align-items: flex-start; flex-direction: column; padding: 25px 7%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero::before { animation: none; }
+  .js .gallery-item { opacity: 1; transform: none; transition: none; }
 }
