@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Discover property opportunities, holiday homes and life in Lefkada, Greece with Lefkada Dream Properties.">
   <title>Lefkada Dream Properties | Find Your Place in the Ionian</title>
   <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.className = 'js';</script>
 </head>
 <body>
   <header class="site-header">
@@ -225,6 +226,21 @@
       nav.classList.remove('nav-open');
       toggle.setAttribute('aria-expanded', 'false');
     }));
+
+    const items = document.querySelectorAll('.gallery-item');
+    if ('IntersectionObserver' in window) {
+      const reveal = new IntersectionObserver(entries => entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        reveal.unobserve(entry.target);
+      }), { threshold: 0.15 });
+      items.forEach((item, i) => {
+        item.style.transitionDelay = (i % 3) * 0.12 + 's';
+        reveal.observe(item);
+      });
+    } else {
+      items.forEach(item => item.classList.add('is-visible'));
+    }
 
     const links = [...document.querySelectorAll('.gallery-item a')];
     const box = document.querySelector('.lightbox');
