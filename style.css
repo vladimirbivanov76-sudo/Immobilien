@@ -102,6 +102,12 @@ h3 { font-size: 16px; font-weight: 600; margin: 13px 0 7px; }
 .lightbox-close { top: 12px; right: 16px; }
 .lightbox-prev { left: 12px; top: 50%; transform: translateY(-50%); }
 .lightbox-next { right: 12px; top: 50%; transform: translateY(-50%); }
+.references { background: var(--cream); padding: 95px 0 100px; }
+.references-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12%; align-items: end; }
+.references h2 { margin-top: 25px; margin-bottom: 0; }
+.references-copy > p:not(.lead) { font-size: 13px; color: var(--muted); margin: 0 0 30px; }
+.references-copy .lead { margin: 0 0 14px; }
+.references-copy .button span { margin-left: 6px; }
 .purpose-section { display: grid; grid-template-columns: 1fr 1fr; min-height: 580px; background: #203d38; color: white; }
 .purpose-image { position: relative; min-height: 460px; background: #203d38; }
 .purpose-image video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -159,7 +165,9 @@ h3 { font-size: 16px; font-weight: 600; margin: 13px 0 7px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 16px; }
   .hero-caption { left: 7%; right: auto; font-size: 8px; }
   .intro, .properties, .buying, .contact { padding-top: 72px; padding-bottom: 72px; }
-  .intro-grid, .contact-grid, .partners-grid { grid-template-columns: 1fr; gap: 10px; }
+  .intro-grid, .contact-grid, .partners-grid, .references-grid { grid-template-columns: 1fr; gap: 10px; }
+  .references { padding: 72px 0; }
+  .references h2 { margin-bottom: 18px; }
   .intro-text { padding-top: 0; }
   .feature-row, .pillar-grid, .property-grid, .steps { grid-template-columns: 1fr; }
   .feature-row { margin-top: 40px; }
