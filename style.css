@@ -110,6 +110,18 @@ h3 { font-size: 16px; font-weight: 600; margin: 13px 0 7px; }
 .gallery-item figcaption { font-size: 11px; color: var(--muted); padding-top: 8px; line-height: 1.4; }
 .gallery-footer { margin-top: 40px; display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
 .gallery-footer .small-note { margin: 0; }
+.location { margin-top: 80px; padding-top: 60px; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr 1.6fr; gap: 7%; align-items: center; }
+.location h3 { font-family: "Playfair Display", Georgia, serif; font-weight: 400; font-size: 34px; margin: 14px 0 16px; }
+.location-copy > p { color: var(--muted); font-size: 14px; }
+.location-copy .location-coords { font-size: 12px; letter-spacing: .02em; margin: 18px 0 28px; color: var(--ink); }
+.location-copy .button span { margin-left: 6px; }
+.location-map { aspect-ratio: 16 / 10; background: var(--cream); border: 1px solid var(--line); }
+.location-map iframe { width: 100%; height: 100%; border: 0; display: block; }
+@media (max-width: 850px) {
+  .location { grid-template-columns: 1fr; gap: 28px; margin-top: 56px; padding-top: 44px; }
+  .location h3 { font-size: 28px; }
+  .location-map { aspect-ratio: 4 / 3; }
+}
 .lightbox { border: 0; padding: 0; background: transparent; max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; }
 .lightbox::backdrop { background: rgba(10,25,22,.92); }
 .lightbox[open] { display: flex; flex-direction: column; align-items: center; justify-content: center; }
