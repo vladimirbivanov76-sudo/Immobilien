@@ -97,7 +97,12 @@ window.I18N = {
   "contact.cta": "Plan your Lefkada visit",
   "contact.note": "Phone number to be added when provided.",
   "footer.tagline": "Discover your place in the Ionian.",
-  "footer.contact": "Contact us ↗"
+  "footer.contact": "Contact us ↗",
+  "loc.label": "LOCATION",
+  "loc.title": "Where the villa stands",
+  "loc.text": "On a quiet hillside in the south of Lefkada, surrounded by olive groves and greenery.",
+  "loc.coords": "Coordinates",
+  "loc.cta": "Open in Google Maps <span aria-hidden=\"true\">↗</span>"
  },
  "de": {
   "meta.title": "Lefkada Dream Properties | Ihr Zuhause im Ionischen Meer",
@@ -196,7 +201,12 @@ window.I18N = {
   "contact.cta": "Lefkada-Besuch planen",
   "contact.note": "Telefonnummer folgt.",
   "footer.tagline": "Entdecken Sie Ihren Ort im Ionischen Meer.",
-  "footer.contact": "Kontakt ↗"
+  "footer.contact": "Kontakt ↗",
+  "loc.label": "STANDORT",
+  "loc.title": "Wo die Villa steht",
+  "loc.text": "An einem ruhigen Hang im Süden von Lefkada, umgeben von Olivenhainen und viel Grün.",
+  "loc.coords": "Koordinaten",
+  "loc.cta": "In Google Maps öffnen <span aria-hidden=\"true\">↗</span>"
  },
  "el": {
   "meta.title": "Lefkada Dream Properties | Η θέση σας στο Ιόνιο",
@@ -295,7 +305,12 @@ window.I18N = {
   "contact.cta": "Οργανώστε την επίσκεψή σας",
   "contact.note": "Ο αριθμός τηλεφώνου θα προστεθεί σύντομα.",
   "footer.tagline": "Ανακαλύψτε τη θέση σας στο Ιόνιο.",
-  "footer.contact": "Επικοινωνία ↗"
+  "footer.contact": "Επικοινωνία ↗",
+  "loc.label": "ΤΟΠΟΘΕΣΙΑ",
+  "loc.title": "Πού βρίσκεται η βίλα",
+  "loc.text": "Σε μια ήσυχη πλαγιά στη νότια Λευκάδα, ανάμεσα σε ελαιώνες και πράσινο.",
+  "loc.coords": "Συντεταγμένες",
+  "loc.cta": "Άνοιγμα στους Χάρτες Google <span aria-hidden=\"true\">↗</span>"
  },
  "fr": {
   "meta.title": "Lefkada Dream Properties | Votre place dans la mer Ionienne",
@@ -394,7 +409,12 @@ window.I18N = {
   "contact.cta": "Planifier votre visite à Leucade",
   "contact.note": "Numéro de téléphone à venir.",
   "footer.tagline": "Trouvez votre place dans la mer Ionienne.",
-  "footer.contact": "Nous contacter ↗"
+  "footer.contact": "Nous contacter ↗",
+  "loc.label": "EMPLACEMENT",
+  "loc.title": "Où se trouve la villa",
+  "loc.text": "Sur une colline paisible au sud de Leucade, entourée d'oliveraies et de verdure.",
+  "loc.coords": "Coordonnées",
+  "loc.cta": "Ouvrir dans Google Maps <span aria-hidden=\"true\">↗</span>"
  },
  "es": {
   "meta.title": "Lefkada Dream Properties | Su lugar en el mar Jónico",
@@ -493,7 +513,12 @@ window.I18N = {
   "contact.cta": "Planificar su visita a Léucade",
   "contact.note": "Número de teléfono próximamente.",
   "footer.tagline": "Descubra su lugar en el mar Jónico.",
-  "footer.contact": "Contacto ↗"
+  "footer.contact": "Contacto ↗",
+  "loc.label": "UBICACIÓN",
+  "loc.title": "Dónde se encuentra la villa",
+  "loc.text": "En una tranquila ladera del sur de Léucade, rodeada de olivares y vegetación.",
+  "loc.coords": "Coordenadas",
+  "loc.cta": "Abrir en Google Maps <span aria-hidden=\"true\">↗</span>"
  },
  "ru": {
   "meta.title": "Lefkada Dream Properties | Ваше место на Ионическом море",
@@ -592,7 +617,12 @@ window.I18N = {
   "contact.cta": "Запланировать поездку на Лефкаду",
   "contact.note": "Номер телефона будет добавлен позже.",
   "footer.tagline": "Найдите своё место на Ионическом море.",
-  "footer.contact": "Связаться ↗"
+  "footer.contact": "Связаться ↗",
+  "loc.label": "РАСПОЛОЖЕНИЕ",
+  "loc.title": "Где находится вилла",
+  "loc.text": "На тихом склоне на юге Лефкады, среди оливковых рощ и зелени.",
+  "loc.coords": "Координаты",
+  "loc.cta": "Открыть в Google Maps <span aria-hidden=\"true\">↗</span>"
  },
  "bg": {
   "meta.title": "Lefkada Dream Properties | Вашето място в Йонийско море",
@@ -691,7 +721,12 @@ window.I18N = {
   "contact.cta": "Планирайте посещение на Лефкада",
   "contact.note": "Телефонният номер ще бъде добавен скоро.",
   "footer.tagline": "Открийте своето място в Йонийско море.",
-  "footer.contact": "Контакт ↗"
+  "footer.contact": "Контакт ↗",
+  "loc.label": "МЕСТОПОЛОЖЕНИЕ",
+  "loc.title": "Къде се намира вилата",
+  "loc.text": "На тих склон в южната част на Лефкада, сред маслинови горички и зеленина.",
+  "loc.coords": "Координати",
+  "loc.cta": "Отвори в Google Maps <span aria-hidden=\"true\">↗</span>"
  },
  "zh": {
   "meta.title": "Lefkada Dream Properties | 您在爱奥尼亚海的家",
@@ -790,6 +825,11 @@ window.I18N = {
   "contact.cta": "规划您的莱夫卡达之行",
   "contact.note": "电话号码即将公布。",
   "footer.tagline": "在爱奥尼亚海找到属于您的地方。",
-  "footer.contact": "联系我们 ↗"
+  "footer.contact": "联系我们 ↗",
+  "loc.label": "位置",
+  "loc.title": "别墅所在地",
+  "loc.text": "位于莱夫卡达岛南部一处宁静的山坡上，四周环绕着橄榄林与绿意。",
+  "loc.coords": "坐标",
+  "loc.cta": "在 Google 地图中打开 <span aria-hidden=\"true\">↗</span>"
  }
 };
