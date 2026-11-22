@@ -5,7 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Discover property opportunities, holiday homes and life in Lefkada, Greece with Lefkada Dream Properties.">
   <title>Lefkada Dream Properties | Find Your Place in the Ionian</title>
+  <link rel="canonical" href="https://vladimirbivanov76-sudo.github.io/Immobilien/">
+  <meta name="theme-color" content="#244640">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lefkada Dream Properties">
+  <meta property="og:title" content="Lefkada Dream Properties | Find Your Place in the Ionian">
+  <meta property="og:description" content="Discover property opportunities, holiday homes and life in Lefkada, Greece with Lefkada Dream Properties.">
+  <meta property="og:url" content="https://vladimirbivanov76-sudo.github.io/Immobilien/">
+  <meta property="og:image" content="https://vladimirbivanov76-sudo.github.io/Immobilien/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Villa with infinity pool on Lefkada">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap">
+  <link rel="preload" as="image" href="images/villa-render-1.jpg" fetchpriority="high">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Lefkada Dream Properties","url":"https://vladimirbivanov76-sudo.github.io/Immobilien/","email":"lefkada.dream.properties@gmail.com","image":"https://vladimirbivanov76-sudo.github.io/Immobilien/images/og-image.jpg","areaServed":{"@type":"Place","name":"Lefkada, Greece"},"availableLanguage":["en","de","fr","es","el","bg","ru","zh"]}
+  </script>
   <script>document.documentElement.className = 'js';</script>
 </head>
 <body>
@@ -109,9 +130,9 @@
         <h2 data-i18n="gallery.title">A villa designed<br><em>for island life.</em></h2>
         <p data-i18n="gallery.text">Natural stone, warm plaster and terraces set into the hillside. Explore the visualisations of our current project in Lefkada.</p>
       </div>
-      <div class="gallery-grid">
+      <div class="gallery-grid" data-gallery="project">
         <figure class="gallery-item gallery-wide">
-          <a href="images/villa-render-2.jpg" data-caption="Villa with infinity pool and terraces"><img src="images/villa-render-2.jpg" alt="Villa with infinity pool and terraces" loading="lazy" width="800" height="450"></a>
+          <a href="images/villa-render-2.jpg" data-caption="Villa with infinity pool and terraces"><img src="images/wide-villa-render-2.jpg" alt="Villa with infinity pool and terraces" loading="lazy" width="800" height="450"></a>
           <figcaption data-i18n="g1">Villa with infinity pool and terraces</figcaption>
         </figure>
         <figure class="gallery-item">
@@ -177,11 +198,24 @@
           <a class="button button-dark" href="https://secretgardensproject.com/work" target="_blank" rel="noopener" data-i18n="refs.cta">View reference projects <span aria-hidden="true">↗</span></a>
         </div>
       </div>
+      <div class="section-wrap">
+        <div class="reference-photos" data-gallery="references">
+          <figure class="gallery-item ref-item">
+            <a href="images/ref-villa-limni.jpg" data-caption="Villa Limni · Infinity pool and stone terraces at dusk"><img src="images/thumb-ref-villa-limni.jpg" alt="Villa Limni · Infinity pool and stone terraces at dusk" loading="lazy" width="1200" height="800"></a>
+            <figcaption><b>Villa Limni</b> · <span data-i18n="refs.limni">Infinity pool and stone terraces at dusk</span></figcaption>
+          </figure>
+          <figure class="gallery-item ref-item">
+            <a href="images/ref-villa-pefko.jpg" data-caption="Villa Pefko · Pool with sun island, stone facade and pine forest"><img src="images/thumb-ref-villa-pefko.jpg" alt="Villa Pefko · Pool with sun island, stone facade and pine forest" loading="lazy" width="1200" height="800"></a>
+            <figcaption><b>Villa Pefko</b> · <span data-i18n="refs.pefko">Pool with sun island, stone facade and pine forest</span></figcaption>
+          </figure>
+        </div>
+        <p class="small-note ref-credit" data-i18n="refs.credit">Photos: Secret Gardens Project</p>
+      </div>
     </section>
 
     <section class="purpose-section">
       <div class="purpose-image">
-        <video src="images/villa-sunset.mp4" poster="images/villa-sunset-poster.jpg" autoplay muted loop playsinline aria-label="Villa terrace with infinity pool from day to sunset"></video>
+        <video data-src="images/villa-sunset.mp4" poster="images/villa-sunset-poster.jpg" preload="none" muted loop playsinline aria-label="Villa terrace with infinity pool from day to sunset"></video>
       </div>
       <div class="purpose-content">
         <div class="section-kicker light-kicker" data-i18n="plans.kicker">06 / YOUR PLANS</div>
@@ -326,7 +360,7 @@
       items.forEach(item => item.classList.add('is-visible'));
     }
 
-    const links = [...document.querySelectorAll('.gallery-item a')];
+    let links = [];
     const box = document.querySelector('.lightbox');
     const boxImg = box.querySelector('img');
     const boxCaption = box.querySelector('.lightbox-caption');
@@ -337,11 +371,22 @@
       boxImg.alt = links[current].dataset.caption;
       boxCaption.textContent = links[current].dataset.caption;
     };
-    links.forEach((link, i) => link.addEventListener('click', e => {
+    document.querySelectorAll('.gallery-item a').forEach(link => link.addEventListener('click', e => {
       e.preventDefault();
-      show(i);
+      links = [...link.closest('[data-gallery]').querySelectorAll('.gallery-item a')];
+      show(links.indexOf(link));
       box.showModal();
     }));
+
+    const video = document.querySelector('video[data-src]');
+    if (video) {
+      const start = () => { if (!video.src) video.src = video.dataset.src; video.play().catch(() => {}); };
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(entries => entries.forEach(entry => {
+          if (entry.isIntersecting) start(); else if (video.src) video.pause();
+        }), { rootMargin: '200px' }).observe(video);
+      } else start();
+    }
     box.querySelector('.lightbox-close').addEventListener('click', () => box.close());
     box.querySelector('.lightbox-prev').addEventListener('click', () => show(current - 1));
     box.querySelector('.lightbox-next').addEventListener('click', () => show(current + 1));
