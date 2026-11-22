@@ -128,7 +128,8 @@ window.I18N = {
   "n.c9": "Floor plans: ground floor (left) and upper floor (right)",
   "n.cta": "Ask about this villa",
   "n.note": "Images are architectural visualisations of the planned villa. Final design, materials and landscaping may differ.",
-  "refs.solis": "Infinity pool with sea view and natural stone facade"
+  "refs.solis": "Infinity pool with sea view and natural stone facade",
+  "n.loc": "In the village of Athani in the south-west of Lefkada, surrounded by olive groves and cypress trees."
  },
  "de": {
   "meta.title": "Lefkada Dream Properties | Ihr Zuhause im Ionischen Meer",
@@ -258,7 +259,8 @@ window.I18N = {
   "n.c9": "Grundrisse: Erdgeschoss (links) und Obergeschoss (rechts)",
   "n.cta": "Anfrage zu dieser Villa",
   "n.note": "Die Bilder sind Architekturvisualisierungen der geplanten Villa. Endgültiges Design, Materialien und Gartengestaltung können abweichen.",
-  "refs.solis": "Infinity-Pool mit Meerblick und Natursteinfassade"
+  "refs.solis": "Infinity-Pool mit Meerblick und Natursteinfassade",
+  "n.loc": "Im Dorf Athani im Südwesten von Lefkada, umgeben von Olivenhainen und Zypressen."
  },
  "el": {
   "meta.title": "Lefkada Dream Properties | Η θέση σας στο Ιόνιο",
@@ -388,7 +390,8 @@ window.I18N = {
   "n.c9": "Κατόψεις: ισόγειο (αριστερά) και όροφος (δεξιά)",
   "n.cta": "Ρωτήστε για αυτή τη βίλα",
   "n.note": "Οι εικόνες είναι αρχιτεκτονικές απεικονίσεις της σχεδιαζόμενης βίλας. Ο τελικός σχεδιασμός, τα υλικά και η διαμόρφωση του κήπου ενδέχεται να διαφέρουν.",
-  "refs.solis": "Πισίνα υπερχείλισης με θέα στη θάλασσα και πρόσοψη από φυσική πέτρα"
+  "refs.solis": "Πισίνα υπερχείλισης με θέα στη θάλασσα και πρόσοψη από φυσική πέτρα",
+  "n.loc": "Στο χωριό Αθάνι στη νοτιοδυτική Λευκάδα, ανάμεσα σε ελαιώνες και κυπαρίσσια."
  },
  "fr": {
   "meta.title": "Lefkada Dream Properties | Votre place dans la mer Ionienne",
@@ -518,7 +521,8 @@ window.I18N = {
   "n.c9": "Plans : rez-de-chaussée (à gauche) et étage (à droite)",
   "n.cta": "Se renseigner sur cette villa",
   "n.note": "Les images sont des visualisations architecturales de la villa prévue. Le design, les matériaux et l'aménagement paysager définitifs peuvent varier.",
-  "refs.solis": "Piscine à débordement avec vue mer et façade en pierre naturelle"
+  "refs.solis": "Piscine à débordement avec vue mer et façade en pierre naturelle",
+  "n.loc": "Dans le village d'Athani, au sud-ouest de Leucade, entouré d'oliveraies et de cyprès."
  },
  "es": {
   "meta.title": "Lefkada Dream Properties | Su lugar en el mar Jónico",
@@ -648,7 +652,8 @@ window.I18N = {
   "n.c9": "Planos: planta baja (izquierda) y planta superior (derecha)",
   "n.cta": "Consultar por esta villa",
   "n.note": "Las imágenes son visualizaciones arquitectónicas de la villa proyectada. El diseño, los materiales y el paisajismo finales pueden variar.",
-  "refs.solis": "Piscina infinita con vistas al mar y fachada de piedra natural"
+  "refs.solis": "Piscina infinita con vistas al mar y fachada de piedra natural",
+  "n.loc": "En el pueblo de Athani, en el suroeste de Léucade, rodeado de olivares y cipreses."
  },
  "ru": {
   "meta.title": "Lefkada Dream Properties | Ваше место на Ионическом море",
@@ -778,7 +783,8 @@ window.I18N = {
   "n.c9": "Планировки: первый этаж (слева) и второй этаж (справа)",
   "n.cta": "Узнать об этой вилле",
   "n.note": "Изображения являются архитектурными визуализациями планируемой виллы. Окончательный дизайн, материалы и ландшафт могут отличаться.",
-  "refs.solis": "Бассейн инфинити с видом на море и фасад из натурального камня"
+  "refs.solis": "Бассейн инфинити с видом на море и фасад из натурального камня",
+  "n.loc": "В деревне Афани на юго-западе Лефкады, среди оливковых рощ и кипарисов."
  },
  "bg": {
   "meta.title": "Lefkada Dream Properties | Вашето място в Йонийско море",
@@ -908,7 +914,8 @@ window.I18N = {
   "n.c9": "Разпределение: приземен етаж (вляво) и горен етаж (вдясно)",
   "n.cta": "Попитайте за тази вила",
   "n.note": "Изображенията са архитектурни визуализации на планираната вила. Окончателният дизайн, материалите и озеленяването може да се различават.",
-  "refs.solis": "Инфинити басейн с изглед към морето и фасада от естествен камък"
+  "refs.solis": "Инфинити басейн с изглед към морето и фасада от естествен камък",
+  "n.loc": "В село Атани в югозападната част на Лефкада, сред маслинови горички и кипариси."
  },
  "zh": {
   "meta.title": "Lefkada Dream Properties | 您在爱奥尼亚海的家",
@@ -1038,6 +1045,7 @@ window.I18N = {
   "n.c9": "平面图：一层（左）与二层（右）",
   "n.cta": "咨询这座别墅",
   "n.note": "图片为规划别墅的建筑效果图，最终设计、材料与园林景观可能有所不同。",
-  "refs.solis": "可眺望大海的无边泳池与天然石材外立面"
+  "refs.solis": "可眺望大海的无边泳池与天然石材外立面",
+  "n.loc": "位于莱夫卡达西南部的阿萨尼村，四周环绕着橄榄林与柏树。"
  }
 };
