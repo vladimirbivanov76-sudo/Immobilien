@@ -127,7 +127,8 @@ window.I18N = {
   "n.c8": "Bird's-eye view of the plot",
   "n.c9": "Floor plans: ground floor (left) and upper floor (right)",
   "n.cta": "Ask about this villa",
-  "n.note": "Images are architectural visualisations of the planned villa. Final design, materials and landscaping may differ."
+  "n.note": "Images are architectural visualisations of the planned villa. Final design, materials and landscaping may differ.",
+  "refs.solis": "Infinity pool with sea view and natural stone facade"
  },
  "de": {
   "meta.title": "Lefkada Dream Properties | Ihr Zuhause im Ionischen Meer",
@@ -256,7 +257,8 @@ window.I18N = {
   "n.c8": "Vogelperspektive des Grundstücks",
   "n.c9": "Grundrisse: Erdgeschoss (links) und Obergeschoss (rechts)",
   "n.cta": "Anfrage zu dieser Villa",
-  "n.note": "Die Bilder sind Architekturvisualisierungen der geplanten Villa. Endgültiges Design, Materialien und Gartengestaltung können abweichen."
+  "n.note": "Die Bilder sind Architekturvisualisierungen der geplanten Villa. Endgültiges Design, Materialien und Gartengestaltung können abweichen.",
+  "refs.solis": "Infinity-Pool mit Meerblick und Natursteinfassade"
  },
  "el": {
   "meta.title": "Lefkada Dream Properties | Η θέση σας στο Ιόνιο",
@@ -385,7 +387,8 @@ window.I18N = {
   "n.c8": "Αεροφωτογραφία του οικοπέδου",
   "n.c9": "Κατόψεις: ισόγειο (αριστερά) και όροφος (δεξιά)",
   "n.cta": "Ρωτήστε για αυτή τη βίλα",
-  "n.note": "Οι εικόνες είναι αρχιτεκτονικές απεικονίσεις της σχεδιαζόμενης βίλας. Ο τελικός σχεδιασμός, τα υλικά και η διαμόρφωση του κήπου ενδέχεται να διαφέρουν."
+  "n.note": "Οι εικόνες είναι αρχιτεκτονικές απεικονίσεις της σχεδιαζόμενης βίλας. Ο τελικός σχεδιασμός, τα υλικά και η διαμόρφωση του κήπου ενδέχεται να διαφέρουν.",
+  "refs.solis": "Πισίνα υπερχείλισης με θέα στη θάλασσα και πρόσοψη από φυσική πέτρα"
  },
  "fr": {
   "meta.title": "Lefkada Dream Properties | Votre place dans la mer Ionienne",
@@ -514,7 +517,8 @@ window.I18N = {
   "n.c8": "Vue aérienne du terrain",
   "n.c9": "Plans : rez-de-chaussée (à gauche) et étage (à droite)",
   "n.cta": "Se renseigner sur cette villa",
-  "n.note": "Les images sont des visualisations architecturales de la villa prévue. Le design, les matériaux et l'aménagement paysager définitifs peuvent varier."
+  "n.note": "Les images sont des visualisations architecturales de la villa prévue. Le design, les matériaux et l'aménagement paysager définitifs peuvent varier.",
+  "refs.solis": "Piscine à débordement avec vue mer et façade en pierre naturelle"
  },
  "es": {
   "meta.title": "Lefkada Dream Properties | Su lugar en el mar Jónico",
@@ -643,7 +647,8 @@ window.I18N = {
   "n.c8": "Vista aérea de la parcela",
   "n.c9": "Planos: planta baja (izquierda) y planta superior (derecha)",
   "n.cta": "Consultar por esta villa",
-  "n.note": "Las imágenes son visualizaciones arquitectónicas de la villa proyectada. El diseño, los materiales y el paisajismo finales pueden variar."
+  "n.note": "Las imágenes son visualizaciones arquitectónicas de la villa proyectada. El diseño, los materiales y el paisajismo finales pueden variar.",
+  "refs.solis": "Piscina infinita con vistas al mar y fachada de piedra natural"
  },
  "ru": {
   "meta.title": "Lefkada Dream Properties | Ваше место на Ионическом море",
@@ -772,7 +777,8 @@ window.I18N = {
   "n.c8": "Участок с высоты птичьего полёта",
   "n.c9": "Планировки: первый этаж (слева) и второй этаж (справа)",
   "n.cta": "Узнать об этой вилле",
-  "n.note": "Изображения являются архитектурными визуализациями планируемой виллы. Окончательный дизайн, материалы и ландшафт могут отличаться."
+  "n.note": "Изображения являются архитектурными визуализациями планируемой виллы. Окончательный дизайн, материалы и ландшафт могут отличаться.",
+  "refs.solis": "Бассейн инфинити с видом на море и фасад из натурального камня"
  },
  "bg": {
   "meta.title": "Lefkada Dream Properties | Вашето място в Йонийско море",
@@ -901,7 +907,8 @@ window.I18N = {
   "n.c8": "Изглед към парцела от птичи поглед",
   "n.c9": "Разпределение: приземен етаж (вляво) и горен етаж (вдясно)",
   "n.cta": "Попитайте за тази вила",
-  "n.note": "Изображенията са архитектурни визуализации на планираната вила. Окончателният дизайн, материалите и озеленяването може да се различават."
+  "n.note": "Изображенията са архитектурни визуализации на планираната вила. Окончателният дизайн, материалите и озеленяването може да се различават.",
+  "refs.solis": "Инфинити басейн с изглед към морето и фасада от естествен камък"
  },
  "zh": {
   "meta.title": "Lefkada Dream Properties | 您在爱奥尼亚海的家",
@@ -1030,6 +1037,7 @@ window.I18N = {
   "n.c8": "地块鸟瞰图",
   "n.c9": "平面图：一层（左）与二层（右）",
   "n.cta": "咨询这座别墅",
-  "n.note": "图片为规划别墅的建筑效果图，最终设计、材料与园林景观可能有所不同。"
+  "n.note": "图片为规划别墅的建筑效果图，最终设计、材料与园林景观可能有所不同。",
+  "refs.solis": "可眺望大海的无边泳池与天然石材外立面"
  }
 };
