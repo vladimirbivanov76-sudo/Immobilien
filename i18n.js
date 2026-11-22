@@ -1,8 +1,8 @@
-/* Translations for Lefkada Dream Properties. Edit the texts here; keys match data-i18n attributes in index.html. */
+/* Translations for Lefkada Cliffface Properties. Edit the texts here; keys match data-i18n attributes in index.html. */
 window.I18N = {
  "en": {
-  "meta.title": "Lefkada Dream Properties | Find Your Place in the Ionian",
-  "meta.desc": "Discover property opportunities, holiday homes and life in Lefkada, Greece with Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Find Your Place in the Ionian",
+  "meta.desc": "Discover property opportunities, holiday homes and life in Lefkada, Greece with Lefkada Cliffface Properties.",
   "menu": "Menu",
   "nav.island": "The Island",
   "nav.approach": "Our Approach",
@@ -132,8 +132,8 @@ window.I18N = {
   "n.loc": "In the village of Athani in the south-west of Lefkada, surrounded by olive groves and cypress trees, close to Egremni beach."
  },
  "de": {
-  "meta.title": "Lefkada Dream Properties | Ihr Zuhause im Ionischen Meer",
-  "meta.desc": "Entdecken Sie Immobilien, Ferienhäuser und das Leben auf Lefkada, Griechenland, mit Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Ihr Zuhause im Ionischen Meer",
+  "meta.desc": "Entdecken Sie Immobilien, Ferienhäuser und das Leben auf Lefkada, Griechenland, mit Lefkada Cliffface Properties.",
   "menu": "Menü",
   "nav.island": "Die Insel",
   "nav.approach": "Unser Ansatz",
@@ -263,8 +263,8 @@ window.I18N = {
   "n.loc": "Im Dorf Athani im Südwesten von Lefkada, umgeben von Olivenhainen und Zypressen, in der Nähe des Strandes von Egremni."
  },
  "el": {
-  "meta.title": "Lefkada Dream Properties | Η θέση σας στο Ιόνιο",
-  "meta.desc": "Ανακαλύψτε ακίνητα, εξοχικές κατοικίες και τη ζωή στη Λευκάδα με τη Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Η θέση σας στο Ιόνιο",
+  "meta.desc": "Ανακαλύψτε ακίνητα, εξοχικές κατοικίες και τη ζωή στη Λευκάδα με τη Lefkada Cliffface Properties.",
   "menu": "Μενού",
   "nav.island": "Το νησί",
   "nav.approach": "Η προσέγγισή μας",
@@ -394,8 +394,8 @@ window.I18N = {
   "n.loc": "Στο χωριό Αθάνι στη νοτιοδυτική Λευκάδα, ανάμεσα σε ελαιώνες και κυπαρίσσια, κοντά στην παραλία Εγκρεμνοί."
  },
  "fr": {
-  "meta.title": "Lefkada Dream Properties | Votre place dans la mer Ionienne",
-  "meta.desc": "Découvrez des biens immobiliers, des maisons de vacances et la vie à Leucade, en Grèce, avec Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Votre place dans la mer Ionienne",
+  "meta.desc": "Découvrez des biens immobiliers, des maisons de vacances et la vie à Leucade, en Grèce, avec Lefkada Cliffface Properties.",
   "menu": "Menu",
   "nav.island": "L'île",
   "nav.approach": "Notre approche",
@@ -525,8 +525,8 @@ window.I18N = {
   "n.loc": "Dans le village d'Athani, au sud-ouest de Leucade, entouré d'oliveraies et de cyprès, près de la plage d'Egremni."
  },
  "es": {
-  "meta.title": "Lefkada Dream Properties | Su lugar en el mar Jónico",
-  "meta.desc": "Descubra propiedades, casas de vacaciones y la vida en Léucade, Grecia, con Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Su lugar en el mar Jónico",
+  "meta.desc": "Descubra propiedades, casas de vacaciones y la vida en Léucade, Grecia, con Lefkada Cliffface Properties.",
   "menu": "Menú",
   "nav.island": "La isla",
   "nav.approach": "Nuestro enfoque",
@@ -656,8 +656,8 @@ window.I18N = {
   "n.loc": "En el pueblo de Athani, en el suroeste de Léucade, rodeado de olivares y cipreses, cerca de la playa de Egremni."
  },
  "ru": {
-  "meta.title": "Lefkada Dream Properties | Ваше место на Ионическом море",
-  "meta.desc": "Недвижимость, дома для отдыха и жизнь на острове Лефкада, Греция, с Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Ваше место на Ионическом море",
+  "meta.desc": "Недвижимость, дома для отдыха и жизнь на острове Лефкада, Греция, с Lefkada Cliffface Properties.",
   "menu": "Меню",
   "nav.island": "Остров",
   "nav.approach": "Наш подход",
@@ -787,8 +787,8 @@ window.I18N = {
   "n.loc": "В деревне Афани на юго-западе Лефкады, среди оливковых рощ и кипарисов, недалеко от пляжа Эгремни."
  },
  "bg": {
-  "meta.title": "Lefkada Dream Properties | Вашето място в Йонийско море",
-  "meta.desc": "Открийте имоти, ваканционни домове и живота на остров Лефкада, Гърция, с Lefkada Dream Properties.",
+  "meta.title": "Lefkada Cliffface Properties | Вашето място в Йонийско море",
+  "meta.desc": "Открийте имоти, ваканционни домове и живота на остров Лефкада, Гърция, с Lefkada Cliffface Properties.",
   "menu": "Меню",
   "nav.island": "Островът",
   "nav.approach": "Нашият подход",
@@ -918,8 +918,8 @@ window.I18N = {
   "n.loc": "В село Атани в югозападната част на Лефкада, сред маслинови горички и кипариси, близо до плажа Егремни."
  },
  "zh": {
-  "meta.title": "Lefkada Dream Properties | 您在爱奥尼亚海的家",
-  "meta.desc": "通过 Lefkada Dream Properties 探索希腊莱夫卡达岛的房产、度假屋与生活。",
+  "meta.title": "Lefkada Cliffface Properties | 您在爱奥尼亚海的家",
+  "meta.desc": "通过 Lefkada Cliffface Properties 探索希腊莱夫卡达岛的房产、度假屋与生活。",
   "menu": "菜单",
   "nav.island": "岛屿",
   "nav.approach": "我们的理念",
