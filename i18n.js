@@ -102,7 +102,10 @@ window.I18N = {
   "loc.title": "Where the villa stands",
   "loc.text": "On a quiet hillside in the south of Lefkada, surrounded by olive groves and greenery.",
   "loc.coords": "Coordinates",
-  "loc.cta": "Open in Google Maps <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "Open in Google Maps <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Infinity pool and stone terraces at dusk",
+  "refs.pefko": "Pool with sun island, stone facade and pine forest",
+  "refs.credit": "Photos: Secret Gardens Project"
  },
  "de": {
   "meta.title": "Lefkada Dream Properties | Ihr Zuhause im Ionischen Meer",
@@ -206,7 +209,10 @@ window.I18N = {
   "loc.title": "Wo die Villa steht",
   "loc.text": "An einem ruhigen Hang im Süden von Lefkada, umgeben von Olivenhainen und viel Grün.",
   "loc.coords": "Koordinaten",
-  "loc.cta": "In Google Maps öffnen <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "In Google Maps öffnen <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Infinity-Pool und Steinterrassen in der Abenddämmerung",
+  "refs.pefko": "Pool mit Liegeinsel, Steinfassade und Pinienwald",
+  "refs.credit": "Fotos: Secret Gardens Project"
  },
  "el": {
   "meta.title": "Lefkada Dream Properties | Η θέση σας στο Ιόνιο",
@@ -310,7 +316,10 @@ window.I18N = {
   "loc.title": "Πού βρίσκεται η βίλα",
   "loc.text": "Σε μια ήσυχη πλαγιά στη νότια Λευκάδα, ανάμεσα σε ελαιώνες και πράσινο.",
   "loc.coords": "Συντεταγμένες",
-  "loc.cta": "Άνοιγμα στους Χάρτες Google <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "Άνοιγμα στους Χάρτες Google <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Πισίνα υπερχείλισης και πέτρινες βεράντες το σούρουπο",
+  "refs.pefko": "Πισίνα με νησίδα ηλιοθεραπείας, πέτρινη πρόσοψη και πευκοδάσος",
+  "refs.credit": "Φωτογραφίες: Secret Gardens Project"
  },
  "fr": {
   "meta.title": "Lefkada Dream Properties | Votre place dans la mer Ionienne",
@@ -414,7 +423,10 @@ window.I18N = {
   "loc.title": "Où se trouve la villa",
   "loc.text": "Sur une colline paisible au sud de Leucade, entourée d'oliveraies et de verdure.",
   "loc.coords": "Coordonnées",
-  "loc.cta": "Ouvrir dans Google Maps <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "Ouvrir dans Google Maps <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Piscine à débordement et terrasses en pierre au crépuscule",
+  "refs.pefko": "Piscine avec îlot de détente, façade en pierre et pinède",
+  "refs.credit": "Photos : Secret Gardens Project"
  },
  "es": {
   "meta.title": "Lefkada Dream Properties | Su lugar en el mar Jónico",
@@ -518,7 +530,10 @@ window.I18N = {
   "loc.title": "Dónde se encuentra la villa",
   "loc.text": "En una tranquila ladera del sur de Léucade, rodeada de olivares y vegetación.",
   "loc.coords": "Coordenadas",
-  "loc.cta": "Abrir en Google Maps <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "Abrir en Google Maps <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Piscina infinita y terrazas de piedra al atardecer",
+  "refs.pefko": "Piscina con isla solárium, fachada de piedra y pinar",
+  "refs.credit": "Fotos: Secret Gardens Project"
  },
  "ru": {
   "meta.title": "Lefkada Dream Properties | Ваше место на Ионическом море",
@@ -622,7 +637,10 @@ window.I18N = {
   "loc.title": "Где находится вилла",
   "loc.text": "На тихом склоне на юге Лефкады, среди оливковых рощ и зелени.",
   "loc.coords": "Координаты",
-  "loc.cta": "Открыть в Google Maps <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "Открыть в Google Maps <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Бассейн инфинити и каменные террасы в сумерках",
+  "refs.pefko": "Бассейн с островком для загара, каменный фасад и сосновый лес",
+  "refs.credit": "Фото: Secret Gardens Project"
  },
  "bg": {
   "meta.title": "Lefkada Dream Properties | Вашето място в Йонийско море",
@@ -726,7 +744,10 @@ window.I18N = {
   "loc.title": "Къде се намира вилата",
   "loc.text": "На тих склон в южната част на Лефкада, сред маслинови горички и зеленина.",
   "loc.coords": "Координати",
-  "loc.cta": "Отвори в Google Maps <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "Отвори в Google Maps <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "Инфинити басейн и каменни тераси по здрач",
+  "refs.pefko": "Басейн с остров за слънчеви бани, каменна фасада и борова гора",
+  "refs.credit": "Снимки: Secret Gardens Project"
  },
  "zh": {
   "meta.title": "Lefkada Dream Properties | 您在爱奥尼亚海的家",
@@ -830,6 +851,9 @@ window.I18N = {
   "loc.title": "别墅所在地",
   "loc.text": "位于莱夫卡达岛南部一处宁静的山坡上，四周环绕着橄榄林与绿意。",
   "loc.coords": "坐标",
-  "loc.cta": "在 Google 地图中打开 <span aria-hidden=\"true\">↗</span>"
+  "loc.cta": "在 Google 地图中打开 <span aria-hidden=\"true\">↗</span>",
+  "refs.limni": "黄昏时分的无边泳池与石砌露台",
+  "refs.pefko": "带日光浴平台的泳池、石材外立面与松林",
+  "refs.credit": "照片：Secret Gardens Project"
  }
 };
