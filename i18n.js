@@ -116,7 +116,7 @@ window.I18N = {
   "n.f3t": "Outdoors",
   "n.f3": "Infinity pool, outdoor kitchen with dining pergola, lounge with fire pit",
   "n.f4t": "Status",
-  "n.f4": "Building permit issued (2023)",
+  "n.f4": "Under construction, building permit issued (2023)",
   "n.c1": "Front view with infinity pool and terraces",
   "n.c2": "Pool deck and stone-clad ground floor",
   "n.c3": "Outdoor kitchen and dining pergola",
@@ -156,7 +156,9 @@ window.I18N = {
   "t.s6t": "Setting",
   "t.s6": "In a nature park, surrounded by olive trees",
   "t.s7t": "Plot",
-  "t.s7": "7,132.67 m²"
+  "t.s7": "7,132.67 m²",
+  "status.uc": "Under construction",
+  "status.t": "Status"
  },
  "de": {
   "meta.title": "Lefkada Cliffface Properties | Ihr Zuhause im Ionischen Meer",
@@ -274,7 +276,7 @@ window.I18N = {
   "n.f3t": "Aussenbereich",
   "n.f3": "Infinity-Pool, Aussenküche mit Essbereich unter Pergola, Lounge mit Feuerstelle",
   "n.f4t": "Stand",
-  "n.f4": "Baugenehmigung erteilt (2023)",
+  "n.f4": "Im Bau, Baugenehmigung erteilt (2023)",
   "n.c1": "Frontansicht mit Infinity-Pool und Terrassen",
   "n.c2": "Pooldeck und Erdgeschoss mit Natursteinverkleidung",
   "n.c3": "Aussenküche und Essbereich unter der Pergola",
@@ -314,7 +316,9 @@ window.I18N = {
   "t.s6t": "Umgebung",
   "t.s6": "In einem Naturpark, umgeben von Olivenbäumen",
   "t.s7t": "Grundstück",
-  "t.s7": "7.132,67 m²"
+  "t.s7": "7.132,67 m²",
+  "status.uc": "Im Bau",
+  "status.t": "Stand"
  },
  "el": {
   "meta.title": "Lefkada Cliffface Properties | Η θέση σας στο Ιόνιο",
@@ -432,7 +436,7 @@ window.I18N = {
   "n.f3t": "Εξωτερικοί χώροι",
   "n.f3": "Πισίνα υπερχείλισης, εξωτερική κουζίνα με τραπεζαρία κάτω από πέργκολα, καθιστικό με φωτιά",
   "n.f4t": "Κατάσταση",
-  "n.f4": "Έχει εκδοθεί οικοδομική άδεια (2023)",
+  "n.f4": "Υπό κατασκευή, έχει εκδοθεί οικοδομική άδεια (2023)",
   "n.c1": "Πρόσοψη με πισίνα υπερχείλισης και βεράντες",
   "n.c2": "Deck πισίνας και πέτρινο ισόγειο",
   "n.c3": "Εξωτερική κουζίνα και τραπεζαρία με πέργκολα",
@@ -472,7 +476,9 @@ window.I18N = {
   "t.s6t": "Περιβάλλον",
   "t.s6": "Μέσα σε φυσικό πάρκο, ανάμεσα σε ελαιόδεντρα",
   "t.s7t": "Οικόπεδο",
-  "t.s7": "7.132,67 τ.μ."
+  "t.s7": "7.132,67 τ.μ.",
+  "status.uc": "Υπό κατασκευή",
+  "status.t": "Κατάσταση"
  },
  "fr": {
   "meta.title": "Lefkada Cliffface Properties | Votre place dans la mer Ionienne",
@@ -590,7 +596,7 @@ window.I18N = {
   "n.f3t": "Extérieur",
   "n.f3": "Piscine à débordement, cuisine d'été avec pergola repas, salon avec brasero",
   "n.f4t": "Statut",
-  "n.f4": "Permis de construire délivré (2023)",
+  "n.f4": "En construction, permis de construire délivré (2023)",
   "n.c1": "Vue de face avec piscine à débordement et terrasses",
   "n.c2": "Plage de piscine et rez-de-chaussée en pierre",
   "n.c3": "Cuisine d'été et pergola repas",
@@ -630,7 +636,9 @@ window.I18N = {
   "t.s6t": "Environnement",
   "t.s6": "Dans un parc naturel, entourée d'oliviers",
   "t.s7t": "Terrain",
-  "t.s7": "7 132,67 m²"
+  "t.s7": "7 132,67 m²",
+  "status.uc": "En construction",
+  "status.t": "Statut"
  },
  "es": {
   "meta.title": "Lefkada Cliffface Properties | Su lugar en el mar Jónico",
@@ -748,7 +756,7 @@ window.I18N = {
   "n.f3t": "Exterior",
   "n.f3": "Piscina infinita, cocina exterior con pérgola comedor, zona lounge con fogata",
   "n.f4t": "Estado",
-  "n.f4": "Licencia de obra concedida (2023)",
+  "n.f4": "En construcción, licencia de obra concedida (2023)",
   "n.c1": "Vista frontal con piscina infinita y terrazas",
   "n.c2": "Solárium de la piscina y planta baja revestida de piedra",
   "n.c3": "Cocina exterior y pérgola comedor",
@@ -788,7 +796,9 @@ window.I18N = {
   "t.s6t": "Entorno",
   "t.s6": "En un parque natural, rodeada de olivos",
   "t.s7t": "Parcela",
-  "t.s7": "7.132,67 m²"
+  "t.s7": "7.132,67 m²",
+  "status.uc": "En construcción",
+  "status.t": "Estado"
  },
  "ru": {
   "meta.title": "Lefkada Cliffface Properties | Ваше место на Ионическом море",
@@ -906,7 +916,7 @@ window.I18N = {
   "n.f3t": "Территория",
   "n.f3": "Бассейн инфинити, летняя кухня с обеденной перголой, лаунж-зона с очагом",
   "n.f4t": "Статус",
-  "n.f4": "Разрешение на строительство получено (2023)",
+  "n.f4": "Строится, разрешение на строительство получено (2023)",
   "n.c1": "Фасад с бассейном инфинити и террасами",
   "n.c2": "Площадка у бассейна и первый этаж с каменной отделкой",
   "n.c3": "Летняя кухня и обеденная пергола",
@@ -946,7 +956,9 @@ window.I18N = {
   "t.s6t": "Окружение",
   "t.s6": "В природном парке, среди оливковых деревьев",
   "t.s7t": "Участок",
-  "t.s7": "7 132,67 м²"
+  "t.s7": "7 132,67 м²",
+  "status.uc": "Строится",
+  "status.t": "Статус"
  },
  "bg": {
   "meta.title": "Lefkada Cliffface Properties | Вашето място в Йонийско море",
@@ -1064,7 +1076,7 @@ window.I18N = {
   "n.f3t": "Открити площи",
   "n.f3": "Инфинити басейн, лятна кухня с трапезария под пергола, лаундж с огнище",
   "n.f4t": "Статус",
-  "n.f4": "Издадено разрешение за строеж (2023)",
+  "n.f4": "В строеж, издадено разрешение за строеж (2023)",
   "n.c1": "Фасада с инфинити басейн и тераси",
   "n.c2": "Площадка до басейна и приземен етаж с каменна облицовка",
   "n.c3": "Лятна кухня и трапезария под пергола",
@@ -1104,7 +1116,9 @@ window.I18N = {
   "t.s6t": "Среда",
   "t.s6": "В природен парк, сред маслинови дървета",
   "t.s7t": "Парцел",
-  "t.s7": "7 132,67 м²"
+  "t.s7": "7 132,67 м²",
+  "status.uc": "В строеж",
+  "status.t": "Статус"
  },
  "zh": {
   "meta.title": "Lefkada Cliffface Properties | 您在爱奥尼亚海的家",
@@ -1222,7 +1236,7 @@ window.I18N = {
   "n.f3t": "户外",
   "n.f3": "无边泳池、带用餐凉棚的户外厨房、火炉休闲区",
   "n.f4t": "状态",
-  "n.f4": "已获建筑许可（2023）",
+  "n.f4": "在建中，已获建筑许可（2023）",
   "n.c1": "正面：无边泳池与露台",
   "n.c2": "泳池平台与石材外饰的一层",
   "n.c3": "户外厨房与用餐凉棚",
@@ -1262,6 +1276,8 @@ window.I18N = {
   "t.s6t": "环境",
   "t.s6": "位于自然公园内，四周环绕着橄榄树",
   "t.s7t": "地块",
-  "t.s7": "7,132.67 平方米"
+  "t.s7": "7,132.67 平方米",
+  "status.uc": "在建中",
+  "status.t": "状态"
  }
 };
