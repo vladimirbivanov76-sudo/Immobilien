@@ -158,7 +158,9 @@ window.I18N = {
   "t.s7t": "Plot",
   "t.s7": "7,132.67 m²",
   "status.uc": "Under construction",
-  "status.t": "Status"
+  "status.t": "Status",
+  "price.t": "Price",
+  "price.v": "On request"
  },
  "de": {
   "meta.title": "Lefkada Cliffface Properties | Ihr Zuhause im Ionischen Meer",
@@ -318,7 +320,9 @@ window.I18N = {
   "t.s7t": "Grundstück",
   "t.s7": "7.132,67 m²",
   "status.uc": "Im Bau",
-  "status.t": "Stand"
+  "status.t": "Stand",
+  "price.t": "Preis",
+  "price.v": "Auf Anfrage"
  },
  "el": {
   "meta.title": "Lefkada Cliffface Properties | Η θέση σας στο Ιόνιο",
@@ -478,7 +482,9 @@ window.I18N = {
   "t.s7t": "Οικόπεδο",
   "t.s7": "7.132,67 τ.μ.",
   "status.uc": "Υπό κατασκευή",
-  "status.t": "Κατάσταση"
+  "status.t": "Κατάσταση",
+  "price.t": "Τιμή",
+  "price.v": "Κατόπιν αιτήματος"
  },
  "fr": {
   "meta.title": "Lefkada Cliffface Properties | Votre place dans la mer Ionienne",
@@ -638,7 +644,9 @@ window.I18N = {
   "t.s7t": "Terrain",
   "t.s7": "7 132,67 m²",
   "status.uc": "En construction",
-  "status.t": "Statut"
+  "status.t": "Statut",
+  "price.t": "Prix",
+  "price.v": "Sur demande"
  },
  "es": {
   "meta.title": "Lefkada Cliffface Properties | Su lugar en el mar Jónico",
@@ -798,7 +806,9 @@ window.I18N = {
   "t.s7t": "Parcela",
   "t.s7": "7.132,67 m²",
   "status.uc": "En construcción",
-  "status.t": "Estado"
+  "status.t": "Estado",
+  "price.t": "Precio",
+  "price.v": "A consultar"
  },
  "ru": {
   "meta.title": "Lefkada Cliffface Properties | Ваше место на Ионическом море",
@@ -958,7 +968,9 @@ window.I18N = {
   "t.s7t": "Участок",
   "t.s7": "7 132,67 м²",
   "status.uc": "Строится",
-  "status.t": "Статус"
+  "status.t": "Статус",
+  "price.t": "Цена",
+  "price.v": "По запросу"
  },
  "bg": {
   "meta.title": "Lefkada Cliffface Properties | Вашето място в Йонийско море",
@@ -1118,7 +1130,9 @@ window.I18N = {
   "t.s7t": "Парцел",
   "t.s7": "7 132,67 м²",
   "status.uc": "В строеж",
-  "status.t": "Статус"
+  "status.t": "Статус",
+  "price.t": "Цена",
+  "price.v": "При запитване"
  },
  "zh": {
   "meta.title": "Lefkada Cliffface Properties | 您在爱奥尼亚海的家",
@@ -1278,6 +1292,8 @@ window.I18N = {
   "t.s7t": "地块",
   "t.s7": "7,132.67 平方米",
   "status.uc": "在建中",
-  "status.t": "状态"
+  "status.t": "状态",
+  "price.t": "价格",
+  "price.v": "价格面议"
  }
 };
