@@ -160,7 +160,11 @@ window.I18N = {
   "status.uc": "Under construction",
   "status.t": "Status",
   "price.t": "Price",
-  "price.v": "On request"
+  "price.v": "On request",
+  "cookie.text": "We use Google Analytics cookies to understand how visitors use this site. You can change your choice at any time under “Cookie settings” at the bottom of the page.",
+  "cookie.accept": "Accept",
+  "cookie.decline": "Decline",
+  "cookie.settings": "Cookie settings"
  },
  "de": {
   "meta.title": "Lefkada Cliffface Properties | Ihr Zuhause im Ionischen Meer",
@@ -322,7 +326,11 @@ window.I18N = {
   "status.uc": "Im Bau",
   "status.t": "Stand",
   "price.t": "Preis",
-  "price.v": "Auf Anfrage"
+  "price.v": "Auf Anfrage",
+  "cookie.text": "Wir verwenden Cookies von Google Analytics, um zu verstehen, wie Besucher diese Seite nutzen. Sie können Ihre Wahl jederzeit unten auf der Seite unter «Cookie-Einstellungen» ändern.",
+  "cookie.accept": "Akzeptieren",
+  "cookie.decline": "Ablehnen",
+  "cookie.settings": "Cookie-Einstellungen"
  },
  "el": {
   "meta.title": "Lefkada Cliffface Properties | Η θέση σας στο Ιόνιο",
@@ -484,7 +492,11 @@ window.I18N = {
   "status.uc": "Υπό κατασκευή",
   "status.t": "Κατάσταση",
   "price.t": "Τιμή",
-  "price.v": "Κατόπιν αιτήματος"
+  "price.v": "Κατόπιν αιτήματος",
+  "cookie.text": "Χρησιμοποιούμε cookies του Google Analytics για να κατανοήσουμε πώς οι επισκέπτες χρησιμοποιούν αυτόν τον ιστότοπο. Μπορείτε να αλλάξετε την επιλογή σας οποιαδήποτε στιγμή από τις «Ρυθμίσεις cookies» στο κάτω μέρος της σελίδας.",
+  "cookie.accept": "Αποδοχή",
+  "cookie.decline": "Απόρριψη",
+  "cookie.settings": "Ρυθμίσεις cookies"
  },
  "fr": {
   "meta.title": "Lefkada Cliffface Properties | Votre place dans la mer Ionienne",
@@ -646,7 +658,11 @@ window.I18N = {
   "status.uc": "En construction",
   "status.t": "Statut",
   "price.t": "Prix",
-  "price.v": "Sur demande"
+  "price.v": "Sur demande",
+  "cookie.text": "Nous utilisons des cookies Google Analytics pour comprendre comment les visiteurs utilisent ce site. Vous pouvez modifier votre choix à tout moment via « Paramètres des cookies » en bas de la page.",
+  "cookie.accept": "Accepter",
+  "cookie.decline": "Refuser",
+  "cookie.settings": "Paramètres des cookies"
  },
  "es": {
   "meta.title": "Lefkada Cliffface Properties | Su lugar en el mar Jónico",
@@ -808,7 +824,11 @@ window.I18N = {
   "status.uc": "En construcción",
   "status.t": "Estado",
   "price.t": "Precio",
-  "price.v": "A consultar"
+  "price.v": "A consultar",
+  "cookie.text": "Utilizamos cookies de Google Analytics para entender cómo los visitantes usan este sitio. Puede cambiar su elección en cualquier momento en «Configuración de cookies», al final de la página.",
+  "cookie.accept": "Aceptar",
+  "cookie.decline": "Rechazar",
+  "cookie.settings": "Configuración de cookies"
  },
  "ru": {
   "meta.title": "Lefkada Cliffface Properties | Ваше место на Ионическом море",
@@ -970,7 +990,11 @@ window.I18N = {
   "status.uc": "Строится",
   "status.t": "Статус",
   "price.t": "Цена",
-  "price.v": "По запросу"
+  "price.v": "По запросу",
+  "cookie.text": "Мы используем файлы cookie Google Analytics, чтобы понять, как посетители пользуются сайтом. Вы можете изменить свой выбор в любой момент в разделе «Настройки cookie» внизу страницы.",
+  "cookie.accept": "Принять",
+  "cookie.decline": "Отклонить",
+  "cookie.settings": "Настройки cookie"
  },
  "bg": {
   "meta.title": "Lefkada Cliffface Properties | Вашето място в Йонийско море",
@@ -1132,7 +1156,11 @@ window.I18N = {
   "status.uc": "В строеж",
   "status.t": "Статус",
   "price.t": "Цена",
-  "price.v": "При запитване"
+  "price.v": "При запитване",
+  "cookie.text": "Използваме бисквитки на Google Analytics, за да разберем как посетителите използват този сайт. Можете да промените избора си по всяко време от „Настройки на бисквитките“ в долната част на страницата.",
+  "cookie.accept": "Приемам",
+  "cookie.decline": "Отказвам",
+  "cookie.settings": "Настройки на бисквитките"
  },
  "zh": {
   "meta.title": "Lefkada Cliffface Properties | 您在爱奥尼亚海的家",
@@ -1294,6 +1322,10 @@ window.I18N = {
   "status.uc": "在建中",
   "status.t": "状态",
   "price.t": "价格",
-  "price.v": "价格面议"
+  "price.v": "价格面议",
+  "cookie.text": "我们使用 Google Analytics Cookie 来了解访客如何使用本网站。您可以随时通过页面底部的“Cookie 设置”更改您的选择。",
+  "cookie.accept": "接受",
+  "cookie.decline": "拒绝",
+  "cookie.settings": "Cookie 设置"
  }
 };
