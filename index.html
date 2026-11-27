@@ -510,6 +510,7 @@
   <script>
     (() => {
       const GTM_ID = 'GTM-W5VPKJVW';
+      const GA_ID = 'G-BN7QLBVF9S';
       const KEY = 'cookie-consent';
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { dataLayer.push(arguments); };
@@ -528,6 +529,12 @@
         s.async = true;
         s.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
         document.head.appendChild(s);
+        const ga = document.createElement('script');
+        ga.async = true;
+        ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+        document.head.appendChild(ga);
+        gtag('js', new Date());
+        gtag('config', GA_ID);
       };
       const banner = document.getElementById('cookie-banner');
       const choice = store.get();
