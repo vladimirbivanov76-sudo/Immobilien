@@ -381,7 +381,15 @@
     <a class="brand footer-brand" href="#home"><span class="brand-mark">LC</span><span>LEFKADA <b>CLIFFFACE PROPERTIES</b></span></a>
     <span data-i18n="footer.tagline">Discover your place in the Ionian.</span>
     <a href="mailto:lefkada.cliffface.properties@gmail.com" data-i18n="footer.contact">Contact us ↗</a>
+    <button type="button" class="cookie-settings" id="cookie-settings" data-i18n="cookie.settings">Cookie settings</button>
   </footer>
+  <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookies" hidden>
+    <p data-i18n="cookie.text">We use Google Analytics cookies to understand how visitors use this site. You can change your choice at any time under “Cookie settings” at the bottom of the page.</p>
+    <div class="cookie-actions">
+      <button type="button" class="cookie-btn cookie-decline" id="cookie-decline" data-i18n="cookie.decline">Decline</button>
+      <button type="button" class="cookie-btn cookie-accept" id="cookie-accept" data-i18n="cookie.accept">Accept</button>
+    </div>
+  </div>
   <dialog class="lightbox" aria-label="Image viewer">
     <button class="lightbox-close" aria-label="Close">×</button>
     <button class="lightbox-nav lightbox-prev" aria-label="Previous image">‹</button>
@@ -498,6 +506,51 @@
       if (e.key === 'ArrowLeft') show(current - 1);
       if (e.key === 'ArrowRight') show(current + 1);
     });
+  </script>
+  <script>
+    (() => {
+      const GTM_ID = 'GTM-W5VPKJVW';
+      const KEY = 'cookie-consent';
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied' });
+      const store = {
+        get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } },
+        set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+      };
+      let loaded = false;
+      const loadTagManager = () => {
+        if (loaded) return;
+        loaded = true;
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+        document.head.appendChild(s);
+      };
+      const banner = document.getElementById('cookie-banner');
+      const choice = store.get();
+      if (choice === 'granted') loadTagManager();
+      else if (choice !== 'denied') banner.hidden = false;
+      document.getElementById('cookie-accept').addEventListener('click', () => {
+        store.set('granted'); banner.hidden = true; loadTagManager();
+      });
+      document.getElementById('cookie-decline').addEventListener('click', () => {
+        const wasGranted = store.get() === 'granted';
+        store.set('denied'); banner.hidden = true;
+        if (wasGranted) {
+          gtag('consent', 'update', { analytics_storage: 'denied' });
+          document.cookie.split(';').map(c => c.split('=')[0].trim()).filter(n => n.startsWith('_ga')).forEach(n => {
+            const host = location.hostname.replace(/^www\./, '');
+            [location.hostname, '.' + host].forEach(d => { document.cookie = n + '=; Max-Age=0; path=/; domain=' + d; });
+            document.cookie = n + '=; Max-Age=0; path=/';
+          });
+          location.reload();
+        }
+      });
+      document.getElementById('cookie-settings').addEventListener('click', () => { banner.hidden = false; });
+    })();
   </script>
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "34204b14835d452f8c35a4807c3bb191"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
